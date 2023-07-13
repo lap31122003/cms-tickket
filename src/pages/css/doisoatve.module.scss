@@ -1,0 +1,157 @@
+.AppGlass2 {
+  display: grid;
+  position: absolute;
+  top: 90px;
+  left: 280px;
+  height: 85%;
+  width: 50%;
+  border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+
+  .h1 {
+    padding: 10px;
+  }
+
+  .h3 {
+    padding: 20px;
+  }
+}
+
+.content2 {
+  display: grid;
+  position: absolute;
+  top: 2px;
+  left: 750px;
+  height: 627px;
+  width: 50%;
+  border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.pagebutton {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transform: translateX(330px) translateY(10px);
+
+}
+
+.pagebutton.active {
+  background-color: rgba(255, 184, 0, 1);
+  color: white;
+}
+
+.search-locve {
+  position: relative;
+  background-color: rgba(237, 237, 237, 1);
+  width: 300px;
+  height: 28px;
+  border-radius: 7px;
+  left: 10px;
+}
+
+.text-tinhtrang {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+
+}
+
+.checkbox{
+  position: absolute;
+  top: 100px;
+  left: 170px;
+}
+
+.loaive {
+  position: absolute;
+  left: 20px;
+  top: 220px;
+}
+
+.vecong {
+  position: absolute;
+  top: 220px;
+  left: 170px;
+}
+
+
+.btlocve{
+  margin-left: 140px;
+  margin-top: 90px;
+  width: 100px;
+  height: 30px;
+  border: 2px solid #FF993C;
+  color: #FF993C;
+  
+}
+
+
+.option {
+  position: absolute;
+  left: 20px;
+  top: 50px;
+  height: 30px;
+  width: 250px;
+  border-radius: 7px;
+  background-color: rgba(237, 237, 237, 1);
+}
+
+.tungay {
+  position: absolute;
+  left: 20px;
+  top: 260px;
+}
+
+.denngay {
+  position: absolute;
+  left: 20px;
+  top: 300px;
+}
+
+.input {
+  position: absolute;
+  left: 20px;
+  top: 300px;
+  background-color: rgba(237, 237, 237, 1);
+  width: 170px;
+  height: 15px;
+  border-radius: 7px;
+  top: 260px;
+  left: 100px;
+}
+
+.iconlich1 {
+  transform: translateX(250px) translateY(100px);
+}
+
+.iconlich2 {
+  transform: translateX(250px) translateY(-15px);
+}
+
+.inputdn {
+  position: absolute;
+  left: 20px;
+  top: 300px;
+  background-color: rgba(237, 237, 237, 1);
+  width: 170px;
+  height: 15px;
+  border-radius: 7px;
+  top: 300px;
+  left: 100px;
+}
+
+.chotdoisoat-button {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  top: 45px;
+  left: 550px;
+  border: 2px solid rgba(255, 153, 60, 1);
+  border-radius: 5px;
+  background-color: rgba(255, 153, 60, 1);
+  color: rgb(255, 255, 255);
+}

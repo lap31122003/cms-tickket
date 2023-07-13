@@ -1,0 +1,126 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.container{
+  display:flex;
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  background:#E5E5E5;
+  color: #030202;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  display: flex;
+  color: #000000;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background: rgba(255, 184, 0, 1);
+  color: #000;
+  transition: all 0.5s;
+  border-radius: 8px;
+}
+.active{
+  background: rgba(255, 184, 0, 1);
+  color: #000;
+  border-radius: 8px;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+.AppGlass{
+  display: grid;
+  position: absolute;
+  top: 90px;
+  right:20px;
+  height:85%;
+  width: 80%;
+  border-radius:1rem;
+  background-color: rgb(255, 255, 255);
+}
+.container
+{
+  height:100vh;
+  display: flex;
+}
+/* .search{
+  position: absolute;
+  top:40px;
+  left:280px;
+  height:70px;
+  width: 100px;;
+
+} */
+.search{
+  color:rgba(237, 237, 237, 1);
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  height:40px;
+  top:30px;
+  left: 280px;
+  /* border: 1px; */
+  /* border-radius:5px; */
+ /* width:100px; */
+}
+.search2{
+   border-radius:5px;
+   width:300px;
+   background-color: #EDE6E6;
+}
+
+.iconsearch{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transform: translateX(300px) translateY(10px);
+  color: #000000;
+}
+input{
+font-size:14px;
+border: 1px solid #fff;
+color: rgb(0, 0, 0);
+padding:10px;
+cursor: pointer;
+opacity: 2;
+}
+.iconmail{
+  position: absolute;
+  color: #000;
+  right:190px;
+}
+.iconbell{
+  position: absolute;
+  color: #000;
+  right:120px;
+}
+.iconuser{
+  position: absolute;
+  color: #000;
+  right: 50px;
+}
+

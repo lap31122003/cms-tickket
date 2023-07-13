@@ -1,0 +1,45 @@
+
+.h1{
+    padding: 10px;
+}
+.Apptrangchu{
+    display: grid;
+    position: absolute;
+    top: 90px;
+    right:20px;
+    height:85%;
+    width: 80%;
+    border-radius:1rem;
+    background-color: rgb(255, 255, 255);
+}
+.data2{
+    position: absolute;
+    top:300px;
+    left:50px;
+
+}
+.data3{
+    position: absolute;
+    top:300px;
+    left:550px;
+
+}
+.text-tien{
+    position: absolute;
+    top:240px;
+    left:70px;
+}
+.text-inputtc{
+    position: absolute;
+    left:50px;
+    top:350px;
+    background-color:rgb(237, 221, 221);
+    width:140px;
+    height:15px;
+    border-radius:7px;
+    // top:300px;
+    // left:70px;
+}
+.iconlichtc{
+    transform: translateX(190px) translateY(68px);
+}

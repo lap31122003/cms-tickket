@@ -1,0 +1,52 @@
+.AppGlass3{
+    display: grid;
+    position: absolute;
+    top: 90px;
+    right:20px;
+    height:85%;
+    width: 80%;
+    border-radius:1rem;
+    background-color: rgb(255, 255, 255);
+}
+.timkiem-caidat{
+    position:absolute;
+    background-color:rgba(237, 237, 237, 1);
+    width:260px;
+    height:20px;
+    border-radius:7px;
+    left:10px;
+    top:80px;
+  
+  }
+  .h1{
+    padding: 15px;
+  }
+  .nutthemgoive{
+    position: absolute;
+    top:80px;
+    width:90px;
+    height:40px;
+    border: 2px solid  rgba(255, 153, 60, 1);
+    border-radius:5px;
+    background-color: rgba(255, 153, 60, 1);
+    color:  rgb(255, 255, 255);
+    left:999px;
+    /* top: -60px;
+    left:900px; */
+  }
+  .nutthemgoive:active {
+    background-color:  rgba(255, 153, 60, 1);
+    border-color: #000000;
+    color: #000000;
+  }
+  .nutxuatfile{
+    position: absolute;
+    top:80px;
+    width:90px;
+    height:40px;
+    border: 2px solid  rgba(255, 153, 60, 1);
+    border-radius:5px;
+    background-color:white;
+    color:  rgba(255, 153, 60, 1);
+    left:890px;
+  }
